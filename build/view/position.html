@@ -1,0 +1,18 @@
+<div app-head-bar text="職位詳情"></div>
+<div app-position-info pos="position" is-login="isLogin"></div>
+<div app-company com="company"></div>
+<div class="position-desc">
+  <p>
+  	<i class="fas fa-building"></i>
+  	<span>職位描述</span>
+  </p>
+  <p class="text">
+  	{{position.description}}
+  </p>
+</div>
+<div class="bottom-footer">
+	<a href="#" class="bottom-btn">
+		<i class="fas fa-sign-out-alt"></i>
+		<span ng-bind="isLogin?'我要投履歷':'去登入'"></span>
+	</a>
+</div>

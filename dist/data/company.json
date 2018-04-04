@@ -1,0 +1,98 @@
+[
+  {
+    "id": "c1",
+    "imageUrl": "/image/company-1.png",
+    "name": "酷遊天股份有限公司",
+    "industry": "資訊軟體業",
+    "state": "日班",
+    "people": "500人以上",
+    "positionClass": [
+      {
+        "id": "engineer",
+        "name": "工程師",
+        "positionList": [{
+          "id": "p1",
+          "name": "前端工程師",
+          "createdDate": "2018-05-01",
+          "salary": "50k-70K"
+        },
+        {
+          "id": "p2",
+          "name": "IOS工程師",
+          "createdDate": "2018-05-01",
+          "salary": "60k-90K"
+        }]
+      },
+      {
+      "id": "pm",
+      "name": "專案管理",
+        "positionList": [{
+          "id": "m1",
+          "name": "專案經理",
+          "createdDate": "2016-04-10 13:30",
+          "salary": "80K起"
+        }]
+    }]
+  },
+  {
+    "id": "c2",
+    "imageUrl": "/image/company-2.png",
+    "name": "全家便利商店",
+    "industry": "服務業",
+    "state": "日班/晚班",
+    "people": "50-100人",
+    "positionClass": [
+      {
+        "id": "assistant",
+        "name": "店員",
+        "positionList": [{
+          "id": "p1",
+          "name": "超商櫃台店員",
+          "createdDate": "2016-04-16 23:30",
+          "salary": "10k-15k"
+        }]
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "imageUrl": "/image/company-3.png",
+    "name": "Oh!MyStone美食",
+    "industry": "服務業",
+    "state": "日班/晚班",
+    "people": "10人",
+    "positionClass": [
+      {
+        "id": "assistant",
+        "name": "店員",
+        "positionList": [{
+          "id": "p1",
+          "name": "外場工讀生",
+          "createdDate": "2016-06-01 01:05",
+          "salary": "22K"
+        }]
+      }
+    ]
+  },
+  {
+    "id": "c4",
+    "imageUrl": "/image/company-4.png",
+    "name": "快樂婚禮",
+    "industry": "服務業",
+    "state": "日班",
+    "people": "10人",
+    "positionClass": [
+      {
+        "id": "assistant",
+        "name": "行政",
+        "positionList": [{
+          "id": "p1",
+          "name": "秘書",
+          "createdDate": "2018-04-25",
+          "salary": "40K"
+        }]
+      }
+    ]
+  }
+]
+

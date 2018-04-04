@@ -1,0 +1,1 @@
+"use strict";angular.module("app").service("cache",["$cookies",function(e){this.put=function(){e.put(key,value)},this.get=function(){return e.put(key)},this.remove=function(){e.remove(key)}}]);

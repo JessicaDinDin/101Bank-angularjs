@@ -1,0 +1,11 @@
+
+<div app-head-bar text="投遞記錄"></div>
+<!-- <div app-tab list="tabList"></div> -->
+<ul class="tab">
+	<li ng-repeat="item in tabList"
+		class="{{selsectId==item.id?'active':null}}"
+		ng-click="click(item)">
+		{{item.name}}
+	</li> 	
+</ul>
+<div app-position-list filter-obj="filterObj" data="list"></div>

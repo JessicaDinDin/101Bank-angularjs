@@ -1,0 +1,24 @@
+.head{
+	height: 100px;
+	background: #e69215;
+	color: #fff;
+}
+
+.head .title{
+	float: left;
+	font-size: 45px;
+	padding-left: 50px;
+	line-height: 100px;
+}
+
+.head a{
+	display: block;
+    font-size: 35px;
+    padding: 10px 20px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 1px solid #882600;
+    border-radius: 10px;
+}

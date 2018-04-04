@@ -1,0 +1,51 @@
+.sheet{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+	position: absolute;
+	top:0;
+	font-size: 45px;
+}
+
+.sheet .wrapper{
+	font-weight: 600;
+	text-align: center;
+	width: 90%;
+    bottom: 0;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    padding: 20px;
+   
+}
+
+.sheet .wrapper ul.item {
+	border-radius: 30px 30px 0 0;
+	box-shadow: 0px 0px 20px #b1aeae;
+	background: #fff;
+}
+
+.sheet .wrapper ul.item li{
+	
+	list-style: none;
+	background: #fff;
+    padding: 20px;
+    color: #1ea7b8;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+.sheet .wrapper button{
+	border: none;
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 0;
+    color: #1ea7b8;
+}
+
+
+
+   

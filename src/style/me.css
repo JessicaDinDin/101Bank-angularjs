@@ -1,0 +1,128 @@
+.me{
+	font-size: 50px;
+}
+
+.me .user-info{
+	height: 450px;
+	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd97a+0,f2a85e+100 */
+	background: rgb(255,217,122); /* Old browsers */
+	background: -moz-linear-gradient(top, rgb(255,217,122) 0%, rgb(242,168,94) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgb(255,217,122) 0%,rgb(242,168,94) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgb(255,217,122) 0%,rgb(242,168,94) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd97a', endColorstr='#f2a85e',GradientType=0 ); /* IE6-9 */
+	
+}
+.me .user-info img{
+	vertical-align: middle;
+    width: 25%;
+    margin-top: 70px;
+    border: 15px solid #fff;
+    border-radius: 500px;
+    box-shadow: 1px 1px 20px #cd8d42;
+}
+
+.me .user-info p{
+	padding-top: 30px;
+	font-size: 45px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.me .opration{
+	/*background: #fff;*/
+	background: #fefefe;
+    padding: 60px;
+    text-align: center;
+    overflow: hidden; 
+}
+.me .post{
+	padding: 50px;
+    width: 45%;
+    margin: 0 2.5%; 
+    background: #fff;
+    border: 1px solid#acacac;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #ebebeb;
+    float: left;
+}
+
+.me .save{
+	width: 45%;
+    height: 200px;
+    /* margin: 0 5%; */
+}
+
+.me .opration .post .title{
+	font-size: 45px;
+    font-weight: bolder;
+    color: #1d95a5;
+    letter-spacing: 1px;
+}
+
+.me .opration .post .desc{
+	font-size: 35px;
+}
+
+.me .opration .post span{
+	font-size: 100px;
+    color: #8c8c8c;
+    border-radius: 100px;
+    width: 160px;
+    border: 10px solid #dadada;
+    height: 160px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.me .btn{
+	margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 32px;
+    padding: 15px 50px;
+    background: #4d86a0;
+    color: #fff;
+}
+
+.me .logout_btn{
+	
+    margin: 50px auto;
+    display: block;
+    border-radius: 50px;
+    padding: 15px 320px;
+    border: 1px solid #b56f23;
+    background: #f4b062;
+    color: #fff;
+}
+
+.me .user-desc{
+	font-size: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #676767;
+    margin-bottom: 50px;
+}
+
+.me .user-desc h1{
+	font-size: 45px;
+    text-align: left;
+    font-weight: bold;
+    color: #585757;
+}
+
+.me .user-desc p{
+	text-align: left;
+}
+
+.me .me-notLogin{
+    margin-top: 40%;
+    text-align: center;
+}
+
+.me .me-notLogin p{
+    font-size: 40px;
+}
+
+  
+
+

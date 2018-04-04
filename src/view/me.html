@@ -1,0 +1,38 @@
+<div class="me">
+
+	<div ng-if="name">
+		<div class="user-info">
+			<img ng-src={{image}} alt="">
+			<p ng-bind="name">Jessica [台北]</p>
+		</div>
+
+		<div class="opration">
+			<div class="user-desc">
+				<h1>自我描述</h1>
+				<p>我一直很喜歡和設計相關的東西</p>
+				<p>因為設計過後的東西會讓人們容易使用，</p>
+				<p>也會提高物品的價值。這一點讓我覺得很著迷...</p>
+			</div>
+			<div class="post">
+				<span><i class="far fa-list-alt"></i></span>
+				<p class="title">投遞膱缺</p>
+				<p class="desc">目前所投遞工作</p>
+				<button class="btn" ui-sref="post">VIEW</button>
+			</div>
+			<div class="post">
+				<span><i class="fas fa-star"></i></span>
+				<p class="title">我的搜藏</p>
+				<p class="desc">目前所搜藏工作</p>
+				<button class="btn" ui-sref="favorite">VIEW</button>
+			</div>
+		</div>
+		<button class="logout_btn" ng-click="logout()">退出登入</button>
+	</div>
+
+	<div class="me-notLogin" ng-hide="name">
+		<i style="font-size: 300px;margin-bottom: 100px; color: #a4a4a4;" class="fas fa-exclamation-circle"></i>
+		<p> 您尚未登入，所以看不道資訊唷!<p>
+		<button class="logout_btn" ui-sref="login">去登入</button>
+	</div>
+</div>
+<div app-footer></div>

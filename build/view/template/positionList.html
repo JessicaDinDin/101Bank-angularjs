@@ -1,0 +1,29 @@
+<div class="position-list">
+	
+	<div class="position-report" ng-show="report">
+		<i class="fas fa-bullhorn"></i>
+		<span>職缺報報</span>
+	</div>
+	<ul>
+		<li ui-sref="position({id:item.id})" 
+			class="item" 
+			ng-repeat="item in data|filterByObj:filterObj">
+			<img class="logo" ng-src="{{item.imageUrl}}" alt="">
+			<div class="position-description">
+				<h3 ng-bind="item.job"></h3>
+				<span class="creat-time" ng-bind="item.date"></span>
+				<p ng-bind="'['+item.cityName+']'+ item.companyName"></p>
+				<p style="color:#ee5a2b;font-size: 35px;" ng-bind="item.salaryName"></p>		
+			</div>
+			<!-- <span ng-if="isFavorite" ng-click="$event.stopPropagation();select(item);" class="icon {{item.select?'star-active':'star'}}"></span>
+ -->
+			<span class="icon" ng-if="name" ng-show="showbtn">
+				<a ng-click="$event.stopPropagation();select(item,$index);">
+					<i class="fas fa-star"></i>取消收藏
+				</a>
+			</span>
+		</li>
+		
+	</ul>
+
+</div>
